@@ -2,7 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-   <ul>
+    // Faire un background color pour Ul
+   <ul style={{backgroundColor:'red'}}>
     <li>ReactJS</li>
     <li>AngularJS</li>
    </ul>
