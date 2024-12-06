@@ -17,6 +17,7 @@ const decrementer = () => { setCount(count - 1) }
     <button onClick={decrementer}>Décrimentation</button>
     </div>
   )
+  
 }
 
 export default MyHook

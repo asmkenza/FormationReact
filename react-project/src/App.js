@@ -5,6 +5,8 @@ import About from './components/about';
 import Calculatrice from "./components/calculatrice/Calculatrice";
 import {Child} from "./components/Child/Child";
 import MyHook from "./components/MyHook/MyHook";
+import Effect from "./components/Effect";
+import EffectA from "./components/EffectWithParams";
 
 function App() {
   
@@ -21,7 +23,9 @@ const clickButton = () => {
       {/* <About name={'kenza'} age={23}/> */}
       {/* <Calculatrice note1={17} note2={18} /> */}
       {/* <Child btn={clickButton} /> */}
-      <MyHook />
+      {/* <MyHook /> */}
+      {/* <Effect/> */}
+      <EffectA/>
     </div>
   );
 }
