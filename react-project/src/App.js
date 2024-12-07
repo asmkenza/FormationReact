@@ -7,6 +7,7 @@ import {Child} from "./components/Child/Child";
 import MyHook from "./components/MyHook/MyHook";
 import Effect from "./components/Effect";
 import EffectA from "./components/EffectWithParams";
+import EffectWithCleanUp from "./components/EffectWithCleanUp";
 
 function App() {
   
@@ -25,7 +26,8 @@ const clickButton = () => {
       {/* <Child btn={clickButton} /> */}
       {/* <MyHook /> */}
       {/* <Effect/> */}
-      <EffectA/>
+      {/* <EffectA/> */}
+      <EffectWithCleanUp/>
     </div>
   );
 }
